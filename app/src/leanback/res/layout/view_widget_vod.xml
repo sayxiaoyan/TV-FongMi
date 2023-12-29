@@ -8,7 +8,8 @@
     <RelativeLayout
         android:id="@+id/info"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_info">
 
         <TextView
             android:id="@+id/title"
@@ -196,7 +197,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             app:indicatorColor="@color/white"
-            app:trackColor="@color/grey_500" />
+            app:trackColor="@color/white" />
 
     </LinearLayout>
 
@@ -224,7 +225,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             app:indicatorColor="@color/white"
-            app:trackColor="@color/grey_500" />
+            app:trackColor="@color/white" />
 
     </LinearLayout>
 
