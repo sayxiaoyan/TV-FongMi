@@ -28,9 +28,9 @@
         android:nextFocusRight="@id/timeBar"
         android:nextFocusUp="@id/next"
         android:nextFocusDown="@id/timeBar"
-        app:buffered_color="@color/blue_200"
-        app:played_color="@color/blue_500"
-        app:scrubber_color="@color/blue_500"
+        app:buffered_color="@color/color_80AEE2"
+        app:played_color="@color/color_3E71A9"
+        app:scrubber_color="@color/color_3E71A9"
         app:unplayed_color="@color/grey_500" />
 
     <TextView
