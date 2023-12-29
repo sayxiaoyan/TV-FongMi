@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:background="@drawable/shape_dialog_bg_main"
     android:padding="16dp">
 
     <com.fongmi.android.tv.ui.custom.CustomRecyclerView
