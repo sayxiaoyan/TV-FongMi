@@ -88,6 +88,7 @@ dependencies {
     implementation project(':jianpian')
     implementation project(':forcetech')
     implementation project(':ijkplayer')
+    pythonImplementation project(':pyramid') 
     implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.20')
     implementation 'androidx.media3:media3-database:' + media3Version
     implementation 'androidx.media3:media3-datasource:' + media3Version
