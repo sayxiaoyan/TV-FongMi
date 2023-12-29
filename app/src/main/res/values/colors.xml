@@ -25,5 +25,10 @@
     <color name="white_70">#B3FFFFFF</color>
     <color name="white_80">#CCFFFFFF</color>
     <color name="white_90">#E6FFFFFF</color>
-
+    <color name="color_5EAE0F">#FFFFFF</color>
+    <color name="color_6551A9">#6551A9</color>
+    <color name="color_1990A8">#1990A8</color>
+    <color name="color_3E71A9">#3E71A9</color>
+    <color name="color_80AEE2">#80AEE2</color>
+    <color name="color_F26A6A6A">#F26A6A6A</color>
 </resources>
