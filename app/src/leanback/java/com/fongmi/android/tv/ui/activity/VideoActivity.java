@@ -947,7 +947,6 @@ public class VideoActivity extends BaseActivity implements CustomKeyDownVod.List
 
     private void showInfo() {
         mBinding.widget.center.setVisibility(View.VISIBLE);
-        mBinding.widget.info.setVisibility(View.VISIBLE);
     }
 
     private void hideInfo() {
@@ -957,12 +956,14 @@ public class VideoActivity extends BaseActivity implements CustomKeyDownVod.List
 
     private void showControl(View view) {
         mBinding.control.danmu.setVisibility(mBinding.danmaku.isPrepared() ? View.VISIBLE : View.GONE);
+        mBinding.widget.info.setVisibility(View.VISIBLE);
         mBinding.control.getRoot().setVisibility(View.VISIBLE);
         view.requestFocus();
         setR1Callback();
     }
 
     private void hideControl() {
+        mBinding.widget.info.setVisibility(View.GONE);
         mBinding.control.text.setText(R.string.play_track_text);
         mBinding.control.getRoot().setVisibility(View.GONE);
         App.removeCallbacks(mR1);
